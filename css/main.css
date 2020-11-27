@@ -1,263 +1,192 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
+body {
+  padding: 16px;
+  width: 100%;
   height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
+.refer {
+  display: inline-flex;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
+.ui-component-tooltip__anchor {
+  display: inline-block;
 }
 
-.clearfix::after {
-  clear: both;
+.project-onboarding-info-card .body .body-right h6 {
+  font-weight: 600;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+h6 {
+  font-size: 13px;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+.building_content, .usage__summary {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #888888;
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+.ui-component-button.ui-component-button_style_primary {
+  color: #fff;
+  background-color: #f22f46;
+  border-color: #f22f46;
+}
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+.project-onboarding-info-card .body .body-left .balance dd, .project-onboarding-info-card .body .body-right .balance dd {
+  font-size: 19px;
+  font-weight: 600;
+  width: 200px;
+  line-height: 1.8;
+}
+
+dd {
+  margin-left: 0;
+}
+
+dd {
+  display: block;
+  margin-inline-start: 40px;
+}
+
+.ui-component-tooltip__anchor {
+  display: inline-block;
+  height: auto;
+}
+
+.building_content__1 {
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+.usage__summary_content {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+}
+
+.usage__summary {
+  margin-top: 16px;
+  width: 100%;
+  height: 364px;
+}
+
+.usage__summary_title {
+  width: 50%;
+  height: auto;
+}
+
+.view_all {
+  margin-left: 38%;
+  margin-top: 10%;
+}
+
+.view_all_p {
+  margin-left: 85%;
+  margin-top: 8%;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 16.66666667%;
+    float: left;
+  }
+}
+.col-md-8 {
+  width: 33.33333333%;
+}
+
+.col-md-12 {
+  width: 50%;
+  float: left;
+}
+
+@media (min-width: 2px) {
+  .content {
+    width: 66.66666667%;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .content_dashboard-first_content_text h5 {
+    font-size: 13px;
   }
 
-  a,
-  a:visited {
-    text-decoration: underline;
+  .content_dashboard-first_content_image img {
+    width: 50%;
+    height: 50%;
   }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
+  .view_all {
+    display: none;
   }
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
+  .refer {
+    display: block;
+    float: left;
   }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  .usage__summary_title {
+    display: none;
   }
 
-  pre {
-    white-space: pre-wrap !important;
+  .usage__summary {
+    height: auto;
+    width: 100%;
+    display: block;
+    float: left;
   }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
+  .view_all_p {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+}
+@media only screen and (max-width: 739px) {
+  .refer {
+    display: block;
+    float: left;
   }
 
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
+  .building_content__1 {
+    display: block !important;
+    float: left !important;
+    margin-top: 50px;
+    height: auto;
   }
 
-  tr,
-  img {
-    page-break-inside: avoid;
+  .building_content {
+    height: auto;
+    width: 100%;
+    display: block;
+    float: left;
   }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
+  .usage__summary_content {
+    height: auto;
+    width: 100%;
+    display: block;
+    float: left;
   }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
+  .view_all_p {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  .usage__summary {
+    height: auto;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+
+  .view_all_p {
+    margin: 0;
+    padding: 0;
+    float: left;
   }
 }
 
+/*# sourceMappingURL=main.css.map */
