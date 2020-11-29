@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contentU="width=device-width, user-scalable=no, ">
+    <title>header</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script>
+        $(function () {
+            $(".contentU_dashboard").load("index.html");
+
+        });
+    </script>
+
+</head>
+<body>
+<header class="header">
+    <!--nav top-->
+    <!--USER HEADER-->
+    <div class="header-user  ">
+        <div class="header-user-list">
+            <div class="header-user--item">
+                <a href="/console"><img class="brand-logo"
+                                        src="https://assets.twilio.com/public_assets/console-navigation/1.44.0/js/images/logo-wordmark.svg"
+                                        title="Twilio"></a>
+            </div>
+            <div class="header-user--item" style="display: flex; justify-content: flex-end">
+                <!--DOCS-->
+                <span>
+
+                        <span class="dropdown">
+                            <button class="open-menu-btn btn btn-style  dropdown-toggle" type="button"
+                                    data-toggle="dropdown">DOCS
+                                <span class="fas fa-angle-down "></span></button>
+                            <ul class="contentU dropdown-menu" style="z-index: 2000">
+                                <li class="drop-menu-item">
+                                    <a title="QuickStarts" href="/doc/quickstart">Quickstarts</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="Guides" href="/doc/guides">Guides</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="Tutorials" href="/doc/howto">Tutorials</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="Helper Libraries"
+                                       href="/doc/libraries">Helper Libraries</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="API Docs" href="/doc/api">API Docs</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="SDKs" href="/doc/libraries">SDKs</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="TwilioQuest" href="/doc/quest">TwilioQuest</a>
+                                </li>
+                            </ul>
+
+                    </span>
+                    <spanv>
+                        <button class=" open-menu-btn-visible btn-style btn btn-primary dropdown-toggle  pull-right"
+                                type="button" data-toggle="dropdown">
+                            <span class="far fa-file"></span></button>
+                        <ul class="contentU dropdown-menu " style="z-index: 2000">
+                                <li class="drop-menu-item">
+                                    <a title="QuickStarts" href="/doc/quickstart">Quickstarts</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="Guides" href="/doc/guides">Guides</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="Tutorials" href="/doc/howto">Tutorials</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="Helper Libraries"
+                                       href="/doc/libraries">Helper Libraries</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="API Docs" href="/doc/api">API Docs</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="SDKs" href="/doc/libraries">SDKs</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a title="TwilioQuest" href="/doc/quest">TwilioQuest</a>
+                                </li>
+                            </ul>
+                    </spanv>
+                </span>
+                <!--USER-->
+                <span>
+                    <span>
+                        <button class=" open-menu-btn btn btn-style   dropdown-toggle" type="button"
+                                data-toggle="dropdown">USER
+                            <span class="fas fa-angle-down "></span></button>
+                        <ul class="content-user dropdown-menu" style="z-index: 2000">
+                            <li class="drop-menu-item">
+                                <a title="User Setting" href="/console/user/setting">User Setting</a>
+                            </li>
+                            <li class="drop-menu-item divider"></li>
+                            <li class="drop-menu-item">
+                                <a title="Logout" href="/logout?g=/">Guides</a>
+                            </li>
+                        </ul>
+                    </span>
+                    <span>
+                        <button class=" open-menu-btn-visible btn-style btn btn-primary dropdown-toggle  pull-right"
+                                type="button" data-toggle="dropdown">
+                            <span class="far fa-user"></span></button>
+                        <ul class="content-user dropdown-menu" style="z-index: 2000">
+                            <li class="drop-menu-item">
+                                <a title="User Setting" href="/console/user/setting">User Setting</a>
+                            </li>
+                            <li class="drop-menu-item diver"></li>
+                            <li class="drop-menu-item">
+                                <a title="Logout" href="/logout?g=/">Guides</a>
+                            </li>
+                        </ul>
+
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!--PROJECT HEADER-->
+    <div class="header-project ">
+        <div class="header-project-list ">
+            <div class="header-project-item" style="display: flex; flex: 1 1 auto">
+                        <span>
+                            <span>
+                                <span class="dropdown">
+                            <button class=" btn btn-style dropdown-toggle" type="button"
+                                    data-toggle="dropdown"
+                                    style="bottom: -7px; left: 25px; color: black; background-color: #e6e6e6">
+                                <span class="text"> My first Twilio...
+                                    <span class="TRAIL">TRAIL</span>
+                                </span>
+                                 <i class="fas fa-angle-down icon"></i>
+                            </button>
+                            <ul class="contentUL dropdown-menu " style="z-index: 2000">
+                                <li class="drop-menu-item">
+                                    <a style="line-height: 35px; background-color: #fff; color: black"
+                                       title="My first Twilio project"
+                                       href="/doc/quickstart">My first Twilio project</a>
+                                </li>
+                                <li class="drop-menu-item divider  " style="background-color: #e6e6e6"></li>
+                                <li class="drop-menu-item">
+                                    <a style="line-height: 35px; background-color: #fff; color: black"
+                                       title="View All Projects" href="/doc/quickstart">View All Projects</a>
+                                </li>
+                                <li class="drop-menu-item divider  " style="background-color: #e6e6e6"></li>
+                                <li class="drop-menu-item">
+                                    <a style="line-height: 35px; background-color: #fff; color: black"
+                                       title="Create New Project" href="/doc/quickstart">Create New Project</a>
+                                </li>
+                            </ul>
+                        </span>
+
+                            </span>
+                        </span>
+
+
+            </div>
+            <div class="header-project-item project-container">
+                <div style="display: flex ;">
+                    <ul class="upgrade-project pull-right">
+                        <a href="/console/billing/upgrade" class="btn-upgrade">Upgrade Project</a>
+                    </ul>
+                    <div class="search-container">
+
+                        <!--search-->
+                        <div class="search pull-right">
+                            <input type="text" class="form-control " placeholder="Go to..."
+                                   onclick="document.getElementById('id01').style.display='block'"
+                                   class="open-modal">
+                            <span class="fa fa-search icon-search"></span>
+                        </div>
+                        <!--search visible-->
+                        <div class="search-visible pull-right ">
+                            <button onclick="myFunction()" class=" search-visible  " type="button"
+
+                            ><i class="fa fa-search small-search-icon"></i>
+                            </button>
+                            <ul id="mySearch" class="search-bar-visible dropdown-menu" style="display: none">
+                                <li class="drop-search">
+                                    <input type="text" class="form-control " placeholder="Go to...">
+                                    <span class="fa fa-search icon-search " style="bottom: 5px"></span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="header-project-tools">
+                    <span class="dropdown">
+                            <button class="btn btn-style tools dropdown-toggle" type="button"
+                                    data-toggle="dropdown" title="Debugger">
+                                <span class="fas fa-bug "></span></button>
+                            <ul class="contentU content-tools dropdown-menu">
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Go to the Debugger"
+                                       href="/console/debugger">Go to the Debugger</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Mute Notification"
+                                       href="#">Mute Notification</a>
+                                </li>
+
+                            </ul>
+
+                    </span>
+                    <span class="dropdown">
+                            <button class="btn btn-style tools dropdown-toggle" type="button"
+                                    data-toggle="dropdown" title="Help">
+                                <span class="fas fa-question"></span></button>
+                            <ul class="contentU content-tools  dropdown-menu">
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Support Centre"
+                                       href="/console/support">Support Centre</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Support Plans"
+                                       href="/console/support/plans">Support Plans</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Submit a Ticket"
+                                       href="/console/support/tickets/create">Submit a Ticket</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Ticket History"
+                                       href="/console/support/tickets">Ticket History</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Give Feedback"
+                                       href="/doc/guides">Give Feedback</a>
+                                </li>
+                            </ul>
+
+                    </span>
+                    <span class="dropdown">
+                            <button class="btn btn-style tools dropdown-toggle" type="button"
+                                    data-toggle="dropdown" title="SettingSetting">
+                                <span class="fas fa-cog "></span></button>
+                            <ul class="contentU content-tools  dropdown-menu">
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Setting"
+                                       href="/doc/quickstart">Setting</a>
+                                </li>
+                                <li class="drop-menu-item">
+                                    <a style="color: #aeaeae;background-color: white" title="Subaccounts"
+                                       href="/doc/guides">Subaccounts</a>
+                                </li>
+
+                            </ul>
+
+                    </span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--Modal-->
+    <div class="overlay">
+        <div
+                id="id01" class="modal">
+        </div>
+    </div>
+    <!-- side bar -->
+<!--    <div class="wrapper">-->
+<!--            <div id="left-dock" class="console-navagation">-->
+<!--                <div class="left-dock-list">-->
+<!--                    <div id ="modal-left-dock" class="modal-dock"style="display: none"></div>-->
+<!--                    <div id="item-wrapper" class="left-dock-item-wrapper">-->
+<!--                        <ul class="product-menu-list">-->
+<!--                            <li class="group"><span class="group-name">Communications Cloud</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-sms-mms"><a href="/console/sms"-->
+<!--                                                                                            data-s="sms-mms"-->
+<!--                                                                                            class="product-menu-item-link"><i-->
+<!--                                    class="icon far fa-comments"></i>-->
+<!--                                <span class="product-name">Programmable Messaging</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-voice"><a href="/console/voice"-->
+<!--                                                                                          data-s="voice"-->
+<!--                                                                                          class="product-menu-item-link"><i-->
+<!--                                    class="icon fas fa-phone"></i><span-->
+<!--                                    class="product-name">Programmable Voice</span></a><a href="#"-->
+<!--                                                                                         class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-video"><a href="/console/video"-->
+<!--                                                                                          data-s="video"-->
+<!--                                                                                          class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-video"></i><span-->
+<!--                                    class="product-name">Programmable Video</span></a><a href="#"-->
+<!--                                                                                         class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-chat"><a href="/console/chat" data-s="chat"-->
+<!--                                                                                         class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon far fa-comment-dots"></i><span class="product-name">Programmable Chat</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-fax"><a href="/console/fax" data-s="fax"-->
+<!--                                                                                        class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-fax"></i><span-->
+<!--                                    class="product-name">Programmable Fax</span></a><a href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-autopilot"><a href="/console/autopilot"-->
+<!--                                                                                              data-s="autopilot"-->
+<!--                                                                                              class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-robot"></i><span-->
+<!--                                    class="product-name">Autopilot</span></a><a href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="group"><span class="group-name">Super Network</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-phone-numbers"><a-->
+<!--                                    href="/console/phone-numbers" data-s="phone-numbers" class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-hashtag"></i><span class="product-name">Phone Numbers</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-sip-trunking"><a-->
+<!--                                    href="/console/sip-trunking" data-s="sip-trunking" class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon icon-twilio-sip-trunking"></i><span class="product-name">Elastic SIP Trunking</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-iot"><a href="/console/iot" data-s="iot"-->
+<!--                                                                                        class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fab fas fa-wifi"></i><span-->
+<!--                                    class="product-name">Internet of Things</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-interconnect"><a-->
+<!--                                    href="/console/interconnect" data-s="interconnect" class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fab fa-connectdevelop"></i><span-->
+<!--                                    class="product-name">Interconnect</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-lookup"><a href="/console/lookup"-->
+<!--                                                                                           data-s="lookup"-->
+<!--                                                                                           class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-search"></i><span class="product-name">Lookup</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="group"><span class="group-name">Engagement Cloud</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-flex"><a href="/console/flex" data-s="flex"-->
+<!--                                                                                         class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fab fa-accusoft"></i><span class="product-name">Flex</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-authy"><a href="/console/authy"-->
+<!--                                                                                          data-s="authy"-->
+<!--                                                                                          class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-shield-alt"></i><span-->
+<!--                                    class="product-name">Authy</span></a><a href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-phone-verification"><a-->
+<!--                                    href="/console/verify" data-s="phone-verification" class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-user-check"></i><span-->
+<!--                                    class="product-name">Verify</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-taskrouter"><a href="/console/taskrouter"-->
+<!--                                                                                               data-s="taskrouter"-->
+<!--                                                                                               class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-exchange-alt"></i><span-->
+<!--                                    class="product-name">TaskRouter</span></a><a href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-notify"><a href="/console/notify"-->
+<!--                                                                                           data-s="notify"-->
+<!--                                                                                           class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon far fa-bell"></i><span class="product-name">Notify</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-conversations"><a-->
+<!--                                    href="/console/conversations" data-s="conversations"-->
+<!--                                    class="product-menu-item-link"><span-->
+<!--                                    style="width: 20px; height: 20px; color: currentcolor; display: inline-block;"><svg-->
+<!--                                    role="img" aria-hidden="false" aria-labelledby="leftNav-conversations-product-icon"-->
+<!--                                    width="100%" height="100%" viewBox="0 0 32 32"><title-->
+<!--                                    id="leftNav-conversations-product-icon">Conversations</title><path fill="currentColor"-->
+<!--                                                                                                       d="M7.9 31.9c-.3 0-.5-.1-.8-.2-.7-.3-1.1-.9-1.1-1.7v-4H2.5C1.1 26 0 24.9 0 23.5v-15C0 7.1 1.1 6 2.5 6H8c3.1 0 5.8 1.8 7 4.6l3.9 9.9c.9 2.1 2.9 3.4 5.2 3.4h5.5c.3 0 .5-.2.5-.5v-15c-.1-.2-.3-.4-.6-.4H24V2.2l-6.3 5.5c-.4.4-1 .3-1.4-.1-.4-.4-.3-1 .1-1.4L22.9.5c.6-.5 1.4-.6 2-.3.7.4 1.1 1 1.1 1.8v4h3.5C30.9 6 32 7.1 32 8.5v15c0 1.4-1.1 2.5-2.5 2.5H24v-.1.1c-3.1 0-5.8-1.9-7-4.7l-3.9-9.9c-.8-2.1-2.8-3.4-5-3.4H2.5c-.3 0-.5.2-.5.5v15c0 .3.2.5.5.5H8v5.8l6.3-5.5c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-6.5 5.7c-.3.2-.7.4-1.2.4z"></path></svg></span><span-->
+<!--                                    class="product-name">Conversations</span></a><a href="#"-->
+<!--                                                                                    class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-proxy"><a href="/console/proxy"-->
+<!--                                                                                          data-s="proxy"-->
+<!--                                                                                          class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-server"></i><span class="product-name">Proxy</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="group"><span class="group-name">Runtime</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-functions"><a href="/console/functions"-->
+<!--                                                                                              data-s="functions"-->
+<!--                                                                                              class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-percentage"></i><span-->
+<!--                                    class="product-name">Functions</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-studio"><a href="/console/studio"-->
+<!--                                                                                           data-s="studio"-->
+<!--                                                                                           class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-stream"></i><span class="product-name">Studio</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-assets"><a href="/console/assets"-->
+<!--                                                                                           data-s="assets"-->
+<!--                                                                                           class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon far fa-file"></i><span class="product-name">Assets</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-twiml-bins"><a href="/console/twiml-bins"-->
+<!--                                                                                               data-s="twiml-bins"-->
+<!--                                                                                               class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-trash"></i><span-->
+<!--                                    class="product-name">TwiML Bins</span></a><a href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-sync"><a href="/console/sync" data-s="sync"-->
+<!--                                                                                         class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-sync"></i><span class="product-name">Sync</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-api-explorer"><a-->
+<!--                                    href="/console/api-explorer" data-s="api-explorer" class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon far fa-map"></i><span class="product-name">API Explorer</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-debugger"><a href="/console/debugger"-->
+<!--                                                                                             data-s="debugger"-->
+<!--                                                                                             class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-bug"></i><span class="product-name">Debugger</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="group"><span class="group-name">Twilio.org</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-impact-access-program"><a-->
+<!--                                    href="/console/twilio-org" data-s="impact-access-program"-->
+<!--                                    class="product-menu-item-link"><span-->
+<!--                                    style="width: 20px; height: 20px; color: currentcolor; display: inline-block;"><svg-->
+<!--                                    role="img" aria-hidden="false" aria-labelledby="leftNav-twilioorg-product-icon"-->
+<!--                                    width="100%" height="100%" viewBox="0 0 24 24"><title-->
+<!--                                    id="leftNav-twilioorg-product-icon">Impact Access Program</title><path-->
+<!--                                    fill="currentColor" fill-rule="evenodd"-->
+<!--                                    d="M21.904 5.5c.364 0 .656.146.874.437.219.292.292.656.146 1.02l-4.226 12.97c-.219.438-.583.802-1.093.948h-.365c-.364 0-.728-.146-1.02-.437l-2.55-2.55h-4.3l-.655 1.894c-.219.583-.729 1.02-1.385 1.02H1.064c-.365 0-.656-.145-.875-.437-.218-.291-.218-.656-.145-1.02l3.279-9.91c.218-.583.801-1.02 1.384-1.02h3.06l.656-1.895c.219-.583.73-1.02 1.385-1.02zm-.51 1.457H9.808L6.675 16.43h7.286c.219 0 .365.073.51.219l2.77 2.769 4.153-12.46zM7.258 9.872h-2.55l-3.134 9.473H6.82l-1.749-1.676L5 17.596c-.146-.218-.146-.437-.073-.656l2.332-7.068zm4.153-.146a1.323 1.323 0 011.676.146l.802.875.874-.802a1.323 1.323 0 011.676-.146c.073.073.073.073.146.219.51.437.51 1.239 0 1.749l-2.26 2.186c-.218.218-.655.218-.874 0l-2.186-2.332c-.073 0-.073-.073-.145-.146-.438-.583-.292-1.384.291-1.749z"></path></svg></span><span-->
+<!--                                    class="product-name">Impact Access Program</span></a><a href="#"-->
+<!--                                                                                            class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="group"><span class="group-name">Marketplace</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-add-ons"><a href="/console/add-ons"-->
+<!--                                                                                            data-s="add-ons"-->
+<!--                                                                                            class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon far fa-plus-square"></i><span-->
+<!--                                    class="product-name">Add-ons</span></a><a href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-channels"><a href="/console/channels"-->
+<!--                                                                                             data-s="channels"-->
+<!--                                                                                             class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon fas fa-list-ul"></i><span class="product-name">Channels</span></a><a-->
+<!--                                    href="#" class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="group"><span class="group-name">Support</span></li>-->
+<!--                            <li class="product-menu-item" id="product-menu-item-support"><a href="/console/support"-->
+<!--                                                                                            data-s="support"-->
+<!--                                                                                            class="product-menu-item-link"><i-->
+<!--                                    class="text-lg icon far fa-life-ring"></i><span-->
+<!--                                    class="product-name">Support Center</span></a><a href="#"-->
+<!--                                                                                     class="pull-right pin-icon"><span-->
+<!--                                    class="pin-tooltip ui-component-tooltip__anchor"><i-->
+<!--                                    class="icon fas fa-thumbtack pin"></i></span></a></li>-->
+<!--                            <li class="divider"></li>-->
+<!--                            <li class="twilio-brand"><a href="/"><i class="icon icon-1-5x icon-twilio-logo"-->
+<!--                                                                    class="product-menu-item-link"></i><span-->
+<!--                                    class="product-name">Twilio.com</span> </a></li>-->
+<!--                            <li class="divider"></li>-->
+<!--                            <li class="footer text-xs"><p class="m-t-md"><a href="/legal/privacy" data-s="footer-privacy">Privacy-->
+<!--                                Policy</a><span class="m-x">|</span><a href="/legal/tos" data-s="footer-tos">Terms of-->
+<!--                                Service</a></p>-->
+<!--                                <p class="twilio-copyright m-b-0"><a href="/">Twilio</a> ©-->
+<!--                                    2020</p></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                    <ul id="dock-btn" class="left-dock-item-btn">-->
+<!--                        <li class="home">-->
+<!--                            <a href="/console"> <i class="fas fa-home icon"></i></a>-->
+<!--                        </li>-->
+<!--                        <hr class="divider"></hr>-->
+<!--                        <li class="open-wrapper">-->
+<!--                        <span>-->
+<!--                            <span id="one"><i style="cursor: pointer;" onclick="openNav()"-->
+<!--                                              class="fas fa-ellipsis-h icon"></i></span>-->
+<!--                            <span id="two"><i style="cursor: pointer;" onclick="closeNav()"-->
+<!--                                              class="fas fa-ellipsis-h icon"></i></span>-->
+<!--                        </span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <div>-->
+<!--                    <span>-->
+<!--                        <span id="3"><i style="cursor: pointer;" onclick=" openbar()"-->
+<!--                                        class="fas fa-angle-double-right icon3"></i></span>-->
+<!--                    </span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="side-bar">-->
+<!--                <div class="side-bar-container">-->
+<!--                    <div class="side-bar-body">-->
+<!--                        <ul id="bar-item" class="bar-stacked" style="display:none;">-->
+<!--                            <li class="product empty-product"></li>-->
+<!--                            <li class="bar-item"><a href="/console" class="font-a"-->
+<!--                                                    data-s="home-dashboard">Dashboard-->
+<!--                            </a></li>-->
+<!--                            <li class="bar-item"><a href="/console/billing" class="font-a"-->
+<!--                                                    data-s="home-billing">Billing</a>-->
+<!--                            </li>-->
+<!--                            <li class="bar-item"><a href="/console/usage" class="font-a"-->
+<!--                                                    data-s="home-usage">Usage</a>-->
+<!--                            </li>-->
+<!--                            <li class="bar-item"><a href="/console/notification-preferences"-->
+<!--                                                    class="font-a"-->
+<!--                                                    data-s="notification-preferences-settings">Notification-->
+<!--                                Preferences</a></li>-->
+<!--                            <li class="bar-item"><a href="/console/project/settings" class="font-a"-->
+<!--                                                    data-s="home-account">Settings</a>-->
+<!--                            </li>-->
+<!--                            <li class="bar-item"><a href="/console/billing/upgrade" class="font-a"-->
+<!--                                                    data-s="home-upgrade">Upgrade</a>-->
+<!--                            </li>-->
+<!--                            <li class="bar-item"><a href="/console/trust-hub" class="font-a"-->
+<!--                                                    data-s="home-trust-hub">Trust Hub-->
+<!--                            </a>-->
+<!--                                <div><a class="ui-component-status-tag"style="color: #9c27b0"> Beta</a></div>-->
+<!--                            </li>-->
+<!--                            <li class="bar-item"><a href="/console/report-center" class="font-a"-->
+<!--                                                    data-s="home-report-center">Account Insights-->
+<!--                            </a>-->
+<!--                                <div><a class="ui-component-status-tag"style="color:#9c27b0;"> Beta</a></div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                        <div>-->
+<!--                    <span>-->
+<!--                        <span id="4"><i style="cursor: pointer;" onclick=" closebar()"-->
+<!--                                        class="fas fa-angle-double-left icon2"></i></span>-->
+<!--                    </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+<!--&lt;!&ndash;        <div class="web">&ndash;&gt;-->
+<!--&lt;!&ndash;            <div id="content" class="col-md-24 p-r-md col-offset-sidebar" style="padding-bottom: initial;">&ndash;&gt;-->
+<!--&lt;!&ndash;                <noscript>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="alert alert-warning" data-s="warning-javascript">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <a href="https://www.twilio.com/console">Twilio Portal</a> is designed for javascript enabled browsers. Please&ndash;&gt;-->
+<!--&lt;!&ndash;                        enable javascript before proceeding.&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </noscript>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div id="alert-container" class="" data-s="flash-messages" style="width: 1106px;"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div id="announcements"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                <header>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <h1></h1>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <h1 id="header">General Settings</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;                </header>&ndash;&gt;-->
+<!--&lt;!&ndash;                <form method="post" class="form-horizontal">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <section>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <h3>Properties</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label class="control-label col-sm-2" for="email">Project Name:</label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-10">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="email" class="form-control" style="width: 35%" id="email" placeholder="Enter email" name="email">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label class="control-label col-sm-2" for="email">AccountID:</label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-10">&ndash;&gt;-->
+<!--&lt;!&ndash;                                AC9575b804c034946c66246dff2ae96476&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        &lt;!&ndash;      <div class="form-group"><label class="col-sm-3 control-label" for="id"> Account Sid </label>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                        &lt;!&ndash;        <div class="col-sm-10 form-control-static" id="id"> AC9575b804c034946c66246dff2ae96476</div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                        &lt;!&ndash;      </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                    </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <section class="two-factor-auth" id="two-factor-auth"><h3>Require Two-Factor Authentication (2FA)</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Add an extra layer of protection to Twilio accounts. <br>Once you enable 2FA, all users accessing this account&ndash;&gt;-->
+<!--&lt;!&ndash;                            must enter verification codes sent on the channel they prefer. <br>To enable 2FA for yourself, go to <a&ndash;&gt;-->
+<!--&lt;!&ndash;                                    href="/console/user/settings">User Settings</a>. </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-24">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="radio"><label><input type="radio" id="twoFactorAuthModeOncePerComputer" name="twoFactorAuthMode"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 value="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 helpblock="Trust computers and only ask for verification code every 30 days"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 class="sl_whiteout"> Once Per Computer </label><span class="help-block">Trust computers and only ask for verification code every 30 days</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-24">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="radio"><label><input type="radio" id="twoFactorAuthModeEveryLogIn" name="twoFactorAuthMode"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 value="2" helpblock="We'll always ask for a verification code"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 class="sl_whiteout"> Every Log-in </label><span class="help-block">We'll always ask for a verification code</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-24">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="radio"><label class="checked"><input type="radio" id="twoFactorAuthModeDisabled"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                 name="twoFactorAuthMode" value="0" checked="checked"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                 helpblock="Do not require a verification code"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                 class="sl_whiteout"> Disabled </label><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                        class="help-block">Do not require a verification code</span></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <section id="api-credentials"><h3>API Credentials</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-12">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="panel panel-default">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="panel-heading">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <div class="col-sm-8"><h3 class="panel-title">LIVE Credentials</h3></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <div class="col-sm-16 text-xs text-right"><a href="/docs/api/rest/request" id="rest-api-learn-more"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                         class="link-secondary external-link" target="_blank"> Learn&ndash;&gt;-->
+<!--&lt;!&ndash;                                                about REST API <i class="fas fa-directions"></i></a></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="panel-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <dl>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dt class="notranslate">Account SID</dt>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <div class="notranslate text-code text-md" id="account-sid">AC9575b804c034946c66246dff2ae96476</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <small class="text-muted">Used to exercise the REST API</small></dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dt class="notranslate m-t-md">Auth Token</dt>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <div role="secure-auth-token" class="sl_whiteout"><span data-token-tooltip="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                                        data-original-title="" title=""><div&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        class="lock-container" data-s="toggle-auth-token"><i class="lock icon icon-twilio-view icon-1-5x fas fa-eye"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                                             data-s="auth-token-lock"></i></div><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        type="password" class="auth-token" value="837209816764f9ad16d65760d854cdbf" data-s="auth-token"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        autocomplete="off" readonly="readonly">837209816764f9ad16d65760d854cdbf</span></span></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <small><a href="#request-token-modal" data-toggle="modal" id="reset-auth-token-link">Request a&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    Secondary Token</a></small></dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </dl>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="text-muted m-t"><small>Keep this somewhere safe and secure</small></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-12">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="panel panel-default">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="panel-heading">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <div class="col-sm-8"><h3 class="panel-title">TEST Credentials</h3></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <div class="col-sm-16 text-sm text-right"><a href="/docs/api/rest/test-credentials"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                         id="test-credentials-learn-more"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                         class="link-secondary external-link" target="_blank"> Learn&ndash;&gt;-->
+<!--&lt;!&ndash;                                                about Test Credentials<i class="fas fa-directions"></i></a></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="panel-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <dl>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dt class="notranslate">Test Account SID</dt>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <div class="notranslate text-code text-md" id="test-account-sid">AC91379f5786e54c92b04e4350174e570b&ndash;&gt;-->
+<!--&lt;!&ndash;                                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <small class="text-muted">Used to exercise the REST API</small></dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dt class="notranslate m-t-md">Test AuthToken</dt>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <div role="secure-auth-token" class="sl_whiteout"><span data-token-tooltip="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                                        data-original-title="" title=""><div&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        class="lock-container" data-s="toggle-auth-token"><i class="fas fa-eye"></i></div><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        type="password" class="auth-token" value="a1c85469d38f7c445237f53280e39714" data-s="auth-token"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        autocomplete="off" readonly="readonly">a1c85469d38f7c445237f53280e39714</span></span></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </dd>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </dl>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="text-muted m-t"><small>Keep this somewhere safe and secure</small></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <section class="ssl-certificate-validation" id="ssl-certificate-validation"><h3>SSL Certificate Validation</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Determines if certificate validation is performed on all Twilio originated requests.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-24">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="radio"><label class="checked"><input type="radio" id="sslCertificateValidationEnabled"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                 name="sslCertificateValidation" value="1" checked="checked"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                 helpblock="Enforces Certificate Validation on webhooks from Twilio to your servers. Twilio does not at this time support self-signed certificates."&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                 class="sl_whiteout"> Enabled </label><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                        class="help-block">Enforces Certificate Validation on webhooks from Twilio to your servers. Twilio does not at this time support self-signed certificates.</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-sm-24">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="radio"><label><input type="radio" id="sslCertificateValidationDisabled"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 name="sslCertificateValidation" value="0"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 helpblock="Does not enforce certificate validation on webhooks from Twilio to your servers. This is not recommended for production services and should only be used during development."&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                 class="sl_whiteout"> Disabled </label>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span class="help-block">Does not enforce certificate validation on webhooks from Twilio to your servers. This is not recommended for production services and should only be used during development.</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <section><h3>Public Key Client Validation</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p> Public Key Client Validation provides an additional layer of security by validating the origin and integrity&ndash;&gt;-->
+<!--&lt;!&ndash;                            of the request being sent to Twilio. This is achieved by sharing a public key with Twilio and then signing each&ndash;&gt;-->
+<!--&lt;!&ndash;                            request with the associated private key. </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="well"><h3>Client Validation is an Enterprise feature</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a href="/enterprise" class="btn btn-default external-link">&ndash;&gt;-->
+<!--&lt;!&ndash;                                Learn more about Enterprise<i class="fas fa-directions"></i></a></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="command-bar" role="command-bar"&ndash;&gt;-->
+<!--&lt;!&ndash;                         style="position: relative; left: inherit; right: inherit; margin: 60px 0px 0px;">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button type="submit" class="btn btn-primary btn-filled" disabled="disabled">Save</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <a href="/console/project/settings" class="btn btn-default">Cancel</a><span id="close-account-link"><a href="#"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                                                               data-toggle="modal"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                                                               data-target="#close-account-modal"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                                                                               data-loading-text="Loading...">Close Project</a></span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                <form action="/console/project/settings/secondary-auth-token" method="post" role="reset-auth-token-modal modal"&ndash;&gt;-->
+<!--&lt;!&ndash;                      id="request-token-modal" class="form-horizontal modal fade" tabindex="-1"&ndash;&gt;-->
+<!--&lt;!&ndash;                      aria-labelledby="request-token-modal-label" aria-hidden="true" autocomplete="false">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="modal-dialog">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-header">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                        class="icon icon-twilio-close"></span></button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <h3 id="request-token-modal-label" class="modal-title">Request a Secondary Token</h3></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="modal-body-alerts"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p>This will generate a secondary auth token for use as a backup or during key rotation.</p></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default">Cancel</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="submit" class="btn btn-primary btn-filled">Request Token</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                <form action="/console/project/settings/secondary-auth-token/promote" method="post"&ndash;&gt;-->
+<!--&lt;!&ndash;                      role="promote-auth-token-modal modal" id="promote-token-modal" class="form-horizontal modal fade" tabindex="-1"&ndash;&gt;-->
+<!--&lt;!&ndash;                      aria-labelledby="promote-token-modal-label" aria-hidden="true" autocomplete="false">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="modal-dialog">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-header">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                        class="icon icon-twilio-close"></span></button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <h3 id="promote-token-modal-label" class="modal-title">Promote Secondary to Primary Token</h3></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="modal-body-alerts"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p><strong>Careful.</strong> Promoting this token means that the primary token will be deleted and any&ndash;&gt;-->
+<!--&lt;!&ndash;                                    subsequent API requests using that token will fail.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="col-sm-19 col-sm-offset-5">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="checkbox"><label><input type="checkbox" id="promote-token-acknowledgement"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            name="acknowledgement" class="sl_whiteout"> I acknowledge the&ndash;&gt;-->
+<!--&lt;!&ndash;                                            repercussions of this action. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default">Cancel</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="submit" class="btn btn-primary btn-filled">Promote Token</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                <form action="/console/project/settings/secondary-auth-token/delete" method="post"&ndash;&gt;-->
+<!--&lt;!&ndash;                      role="delete-auth-token-modal modal" id="delete-token-modal" class="form-horizontal modal fade" tabindex="-1"&ndash;&gt;-->
+<!--&lt;!&ndash;                      aria-labelledby="delete-token-modal-label" aria-hidden="true" autocomplete="false">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="modal-dialog">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-header">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                        class="icon icon-twilio-close"></span></button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <h3 id="delete-token-modal-label" class="modal-title">Delete Secondary Token</h3></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="modal-body-alerts"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p><strong>Careful.</strong> Deleting this token means that any API requests using this token will fail.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="col-sm-19 col-sm-offset-5">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="checkbox"><label><input type="checkbox" id="delete-token-acknowledgement"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            name="acknowledgement" class="sl_whiteout"> I acknowledge the&ndash;&gt;-->
+<!--&lt;!&ndash;                                            repercussions of this action. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default">Cancel</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="submit" class="btn btn-primary btn-filled">Delete Token</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                <form action="/console/project/settings/close-account" method="post"&ndash;&gt;-->
+<!--&lt;!&ndash;                      role="close-account-modal close-account-form-close-account ajax ensure-required modal"&ndash;&gt;-->
+<!--&lt;!&ndash;                      data-s="close-trial-project-form" class="form-horizontal modal fade" id="close-account-modal" tabindex="-1"&ndash;&gt;-->
+<!--&lt;!&ndash;                      aria-labelledby="close-account-modal-label" aria-hidden="true" autocomplete="false">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="modal-dialog">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-header">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span&ndash;&gt;-->
+<!--&lt;!&ndash;                                        class="icon icon-twilio-close"></span></button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <h3 id="close-account-modal-label" class="modal-title">Close Project - My first Twilio project</h3></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="modal-body-alerts"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="hidden" id="close-nonupgraded" name="close-account-action" value="close-account"&ndash;&gt;-->
+<!--&lt;!&ndash;                                       class="form-control sl_whiteout">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="form-group m-l-sm"><h4><strong>Please acknowledge the following:</strong></h4>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <section>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="checkbox"><label><input type="checkbox" id="close-nonupgraded-warning-subaccounts"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            name="warning-subaccounts" required="required"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            role="close-acknowledgement" class="sl_whiteout"> You will immediately&ndash;&gt;-->
+<!--&lt;!&ndash;                                            lose access to this Project and its subaccounts. API requests will fail. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="checkbox"><label><input type="checkbox" id="close-nonupgraded-warning-charges"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            name="warning-charges" required="required"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            role="close-acknowledgement" class="sl_whiteout"> Recurring charges&ndash;&gt;-->
+<!--&lt;!&ndash;                                            will stop and no new charges will be incurred. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="checkbox"><label><input type="checkbox" id="close-nonupgraded-warning-numbers"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            name="warning-numbers" required="required"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            role="close-acknowledgement" class="sl_whiteout"> Twilio will release&ndash;&gt;-->
+<!--&lt;!&ndash;                                            phone numbers, short codes and other associated resources. (<a&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    href="https://support.twilio.com/hc/en-us/articles/360010066814" target="_blank"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    class="external-link"><span>See the full list</span><i&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    class="icon icon-twilio-external-link text-middle m-l-xs"></i></a>). </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <div class="checkbox"><label><input type="checkbox" id="close-nonupgraded-warning-deletion"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            name="warning-deletion" required="required"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                            role="close-acknowledgement" class="sl_whiteout"> The Project and all&ndash;&gt;-->
+<!--&lt;!&ndash;                                            associated data will be scheduled for deletion. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="modal-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default">Cancel</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <button type="submit" class="btn btn-primary btn-filled" role="close-upgraded-account" disabled="">Close&ndash;&gt;-->
+<!--&lt;!&ndash;                                    Project&ndash;&gt;-->
+<!--&lt;!&ndash;                                </button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div id="close-account-modal-original-label" class="hide">Close Project My first Twilio project</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div id="close-account-modal-close-account" class="hide">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <form id="close-account-form-close-account" method="post" action="/console/project/settings/close-account"&ndash;&gt;-->
+<!--&lt;!&ndash;                          role="close-account-form-close-account ajax ensure-required"&ndash;&gt;-->
+<!--&lt;!&ndash;                          data-s="close-upgraded-account-modal-close-account">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-body"><input type="hidden" id="close-upgraded" name="close-account-action" value="close-account"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                       class="form-control sl_whiteout">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="form-group m-l-sm"><h4><strong>Please acknowledge the following:</strong></h4>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <section>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="checkbox"><label><input type="checkbox" id="close-upgraded-warning-subaccounts"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        name="warning-subaccounts" required="required"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        role="close-acknowledgement" class="sl_whiteout"> You will immediately&ndash;&gt;-->
+<!--&lt;!&ndash;                                        lose access to this Project and its subaccounts. API requests will fail. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="checkbox"><label><input type="checkbox" id="close-upgraded-warning-charges"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        name="warning-charges" required="required" role="close-acknowledgement"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        class="sl_whiteout"> Recurring charges will stop and no new charges will&ndash;&gt;-->
+<!--&lt;!&ndash;                                        be incurred. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="checkbox"><label><input type="checkbox" id="close-upgraded-warning-numbers"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        name="warning-numbers" required="required" role="close-acknowledgement"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        class="sl_whiteout"> Twilio will release phone numbers, short codes and&ndash;&gt;-->
+<!--&lt;!&ndash;                                        other associated resources. (<a href="https://support.twilio.com/hc/en-us/articles/360010066814"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        target="_blank" class="external-link"><span>See the full list</span><i&ndash;&gt;-->
+<!--&lt;!&ndash;                                                class="icon icon-twilio-external-link text-middle m-l-xs"></i></a>). </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="checkbox"><label><input type="checkbox" id="close-upgraded-warning-deletion"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        name="warning-deletion" required="required" role="close-acknowledgement"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        class="sl_whiteout"> The Project and all associated data will be&ndash;&gt;-->
+<!--&lt;!&ndash;                                        scheduled for deletion. </label></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-footer text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default">Cancel</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button type="submit" class="btn btn-primary btn-filled" role="close-upgraded-account" disabled="">Close&ndash;&gt;-->
+<!--&lt;!&ndash;                                Project&ndash;&gt;-->
+<!--&lt;!&ndash;                            </button>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div id="close-account-modal-release-account" class="hide">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <form id="close-account-form-release-account" method="post" action="/console/project/settings/close-account"&ndash;&gt;-->
+<!--&lt;!&ndash;                          role="close-account-form-close-account ajax ensure-required"&ndash;&gt;-->
+<!--&lt;!&ndash;                          data-s="close-upgraded-account-modal-close-account">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-body"><input type="hidden" id="release-account-body" name="close-account-action"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                       value="stop-charges" class="form-control sl_whiteout">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="form-group m-l-sm"><h4><strong>Please acknowledge the following:</strong></h4>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <section>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <div class="checkbox"><label><input type="checkbox" id="release-account-warning-charges"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        name="warning-charges" required="required" role="close-acknowledgement"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                                        class="sl_whiteout"> Confirm you want to release all items from your&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Project with a recurring fee, such as phone numbers and call recordings (<a&ndash;&gt;-->
+<!--&lt;!&ndash;                                                href="https://support.twilio.com/hc/en-us/articles/360010066814" target="_blank"&ndash;&gt;-->
+<!--&lt;!&ndash;                                                class="external-link"><span>See the full list</span><i&ndash;&gt;-->
+<!--&lt;!&ndash;                                                class="icon icon-twilio-external-link text-middle m-l-xs"></i></a>). This cannot be undone. </label>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </section>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="modal-footer text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default">Cancel</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button type="submit" class="btn btn-primary btn-filled" role="release-upgraded-account" disabled="">Continue&ndash;&gt;-->
+<!--&lt;!&ndash;                            </button>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--        </div>-->
+
+<!--        <div class="test" style="background-color: #008cff; left: 0px; top: 0px ;width: 1000px;height: 1000px"></div>-->
+    </div>
+
+
+
+
+
+</header>
+<script>
+    var o = document.getElementById("one");
+    var to = document.getElementById("two");
+    to.style.display = 'none';
+
+    function openNav() {
+        document.getElementById("item-wrapper").style.marginLeft = "287px";
+        document.getElementById("left-dock").style.marginLeft = "250px";
+        document.getElementById(3).style.display = "none";
+        document.getElementById(4).style.display = "none";
+        document.getElementById("modal-left-dock").style.display = "block"
+        document.getElementById("bar-item").style.display="none";
+        o.style.display = 'none';
+        to.style.display = '';
+    }
+
+    function closeNav() {
+        document.getElementById("item-wrapper").style.marginLeft = "-278px";
+        document.getElementById("left-dock").style.marginLeft = "0";
+        document.getElementById("modal-left-dock").style.display = "none"
+        document.getElementById(3).style.display = "";
+        o.style.display = '';
+        to.style.display = 'none'
+    }
+</script>
+<script>
+    var a = document.getElementById("3");
+    var b = document.getElementById("4");
+    b.style.display = 'none';
+
+    function openbar() {
+        document.getElementById("bar-item").style.display = "block"
+        a.style.display = 'none';
+        b.style.display = ''
+    }
+
+    function closebar() {
+        document.getElementById("bar-item").style.display = "none"
+        a.style.display = '';
+        b.style.display = 'none'
+    }
+</script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("mySearch");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+
+        var modal = document.getElementById('id01');
+        modal.style.display = "block";
+        window.onclick = function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                x.style.display = "none";
+            }
+
+        }
+    }
+</script>
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
+
+<!--&lt;!&ndash;<script>&ndash;&gt;-->
+<!--&lt;!&ndash;    function toggle(el, el1) {&ndash;&gt;-->
+<!--&lt;!&ndash;        var tag = document.getElementById(el);&ndash;&gt;-->
+<!--&lt;!&ndash;        var tag2 = document.getElementById(el1);&ndash;&gt;-->
+<!--&lt;!&ndash;        tag.style.display = tag.style.display === 'block' ? 'none' : 'block';&ndash;&gt;-->
+<!--&lt;!&ndash;        tag2.style.display = 'none';&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--&lt;!&ndash;<script>&ndash;&gt;-->
+<!--&lt;!&ndash;    function toggle(el, el1) {&ndash;&gt;-->
+<!--&lt;!&ndash;        var tag = document.getElementById(el);&ndash;&gt;-->
+<!--&lt;!&ndash;        var tag2 = new Array();&ndash;&gt;-->
+<!--&lt;!&ndash;        tag.style.display = tag.style.display === 'block' ? 'none' : 'block';&ndash;&gt;-->
+<!--&lt;!&ndash;        tag2.style.display = 'none';&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->

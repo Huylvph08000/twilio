@@ -17,23 +17,33 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" crossorigin="anonymous" src="//assets.twilio.com/public_assets/console-js/2.11.0/js/ads.js"></script>
-  <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/751085158/?random=1606361458735&amp;cv=9&amp;fst=1606361458735&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=24&amp;u_tz=420&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.twilio.com%2Fconsole%2Fnotification-preferences&amp;ref=https%3A%2F%2Fwww.twilio.com%2Fconsole%2Fusage%3Fdate%3D2020-11&amp;tiba=Twilio%20Cloud%20Communications%20%7C%20Web%20Service%20API%20for%20building%20Voice%20and%20SMS%20Applications&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#sidebar").load("sidebar.html");
+
+    });
+  </script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/751085158/?random=1606361458735&amp;cv=9&amp;fst=1606361458735&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=24&amp;u_tz=420&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.twilio.com%2Fconsole%2Fnotification-preferences&amp;ref=https%3A%2F%2Fwww.twilio.com%2Fconsole%2Fusage%3Fdate%3D2020-11&amp;tiba=Twilio%20Cloud%20Communications%20%7C%20Web%20Service%20API%20for%20building%20Voice%20and%20SMS%20Applications&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
 </head>
 <body>
-<div id="content" class="col-md-24 p-r-md col-offset-sidebar">
-  <noscript>
-    <div class="alert alert-warning" data-s="warning-javascript">
-      <a href="https://www.twilio.com/console">Twilio Portal</a> is designed for javascript enabled browsers. Please enable javascript before proceeding. </div>
-  </noscript>
-  <div id="alert-container" class="" data-s="flash-messages" style="width: 1106px;"></div>
-  <div id="announcements"></div>
-  <div id="notification-preferences-console"><div>
-    <div class="ui-component-pages page">
-      <header class="ui-component-pageheader">
-<!--        <i class="far fa-window-close"></i>-->
-        <h1 class="ui-component-pageheader__title">Notification Preferences</h1>
-      </header>
-      <span>
+<div id="header"></div>
+  <div class="test"style="display: flex; flex-direction: row">
+    <div id="sidebar"></div>
+    <div id="content" class="col-md-24 p-r-md col-offset-sidebar">
+      <noscript>
+        <div class="alert alert-warning" data-s="warning-javascript">
+          <a href="https://www.twilio.com/console">Twilio Portal</a> is designed for javascript enabled browsers. Please enable javascript before proceeding. </div>
+      </noscript>
+      <div id="alert-container" class="" data-s="flash-messages" style="width: 1106px;"></div>
+      <div id="announcements"></div>
+      <div id="notification-preferences-console"><div>
+        <div class="ui-component-pages page">
+          <header class="ui-component-pageheader">
+            <!--        <i class="far fa-window-close"></i>-->
+            <h1 class="ui-component-pageheader__title">Notification Preferences</h1>
+          </header>
+          <span>
         <p class="description">As the Owner or Administrator of this account, manage which of your teammates receive the following types of notifications.<br>The account owner cannot opt-out of these notifications.</p>
         <table class="ui-component-table">
           <thead>
@@ -311,6 +321,10 @@
           </tbody>
         </table>
         <p class="preferences-disclaimer" style="font-size: 10px;">By opting out non-owner roles from Legal and Privacy notices, you agree that the Owner is authorized to receive these notices on their behalf.</p></span>
-      <p class="marketing-opt-out-link">To manage your marketing emails, click&nbsp;<a href="https://pages.twilio.com/Email-Preference-Center.html" target="_blank" rel="noreferrer">here<i class="ui-component-icon ui-component-icon_size_null icon-twilio-external-link ui-component-link__icon"></i></a></p></div></div></div></div>
+          <p class="marketing-opt-out-link">To manage your marketing emails, click&nbsp;<a href="https://pages.twilio.com/Email-Preference-Center.html" target="_blank" rel="noreferrer">here<i class="ui-component-icon ui-component-icon_size_null icon-twilio-external-link ui-component-link__icon"></i></a></p></div></div></div></div>
+
+  </div>
+
+
 </body>
 </html>
