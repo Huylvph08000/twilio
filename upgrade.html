@@ -1,0 +1,165 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <title>Title</title>-->
+<!--  <link rel="stylesheet" href="css/main.css">-->
+<!--  <link rel="stylesheet" href="css/upgrade.css">-->
+<!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"-->
+<!--        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">-->
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1 class="ui-component-pageheader__title">Upgrade Account</h1>-->
+<!--<div-->
+<!--  class="ui-component-accordion__panel ui-component-accordion__panel_inactive ui-component-accordion__panel_disabled ui-component-accordion__panel_animated ">-->
+<!--  <div class="heading">-->
+<!--    <div class="heading__title">Verify Phone Number - You've verified 0388 337 546</div>-->
+<!--    <div class="heading__status">-->
+<!--      <i class="ui-component-icon ui-component-icon_size_null icon-twilio-success fas fa-check-circle"></i>-->
+<!--    </div>-->
+<!--    <div class="heading__action">-->
+<!--      <i-->
+<!--        class="ui-component-icon ui-component-icon_size_null icon-twilio-dropdown heading__action-icon heading__action-icon_animated fas fa-chevron-up"></i>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="ui-component-accordion__body ui-component-accordion__body_disabled ui-component-accordion__body_animated">-->
+<!--    <div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<!--<div class="ui-component-accordion__panel ui-component-accordion__panel_animated ">-->
+<!--  <div class="heading">-->
+<!--    <div class="heading__title">Add Company Address</div>-->
+<!--    <div class="heading__action">-->
+<!--      <i-->
+<!--        class="ui-component-icon ui-component-icon_size_null icon-twilio-dropdown heading__action-icon heading__action-icon_active heading__action-icon_animated"></i>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="ui-component-accordion__body ui-component-accordion__body_animated">-->
+<!--    <div class="address-component">-->
+<!--      <div class="ui-component-grid">-->
+<!--        <div class="ui-component-col">-->
+<!--          <div class="address-element__country">-->
+<!--            <div class="address-element__country__label-container">-->
+<!--              <div class="billing_countries_dropdown">-->
+<!--                <div class="ui-component-dropdown__container">-->
+<!--                  <span class="ui-component-dropdown">-->
+<!--                    <span class="ui-component-dropdown__toggle">-->
+<!--                      <button-->
+<!--                        class="btn ui-component-dropdown__button ui-component-dropdown__button_style_default ui-component-country-flag__button ui-component-country-flag__button_style_with-flagname ui-component-country-flag ui-component-country-flag_us"-->
+<!--                        type="button">United States-->
+<!--                        <i class="icon icon-twilio-dropdown ui-component-dropdown__button-icon"></i>-->
+<!--                      </button>-->
+<!--                    </span>-->
+<!--                  </span>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-12_md-12">-->
+<!--          <div class="address-element__attention-to">-->
+<!--            <div class="address-element__attention-to__label-container">-->
+<!--              <label for="attentionTo">Attention To</label>-->
+<!--            </div>-->
+<!--            <div class="address-element__attention-to__input-container">-->
+<!--              <input name="attentionTo" type="text" maxlength="255" value="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-12_md-12">-->
+<!--          <div class="address-element__address1">-->
+<!--            <div class="address-element__address1__label-container">-->
+<!--              <label for="address1">Address</label>-->
+<!--            </div>-->
+<!--            <div class="address-element__address1__input-container">-->
+<!--              <input name="address1" type="text" required="" maxlength="255"-->
+<!--                     placeholder="Add your street here (required)" value="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-12_md-12">-->
+<!--          <div class="address-element__address2">-->
+<!--            <div class="address-element__address2__input-container">-->
+<!--              <input name="address2" type="text" maxlength="255" placeholder="Add unit/suite information here" value="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-4_md-12">-->
+<!--          <div class="address-element__city">-->
+<!--            <div class="address-element__city__label-container">-->
+<!--              <label for="city">City*</label>-->
+<!--            </div>-->
+<!--            <div class="address-element__city__input-container">-->
+<!--              <input name="city" type="text" required="" maxlength="255" value="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-4_md-12">-->
+<!--          <div class="address-element__province">-->
+<!--            <div class="address-element__province__label-container"><label for="province">State*</label>-->
+<!--            </div>-->
+<!--            <div class="address-element__province__input-container">-->
+<!--              <input name="province" type="text" required="" maxlength="255" value="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-4_md-12">-->
+<!--          <div class="address-element__postal-code">-->
+<!--            <div class="address-element__postal-code__label-container"><label for="postalCode">Zip Code*</label></div>-->
+<!--            <div class="address-element__postal-code__input-container"><input name="postalCode" type="text" required=""-->
+<!--                                                                              maxlength="255" value=""></div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="ui-component-col-12">-->
+<!--          <div class="address-element__business-tax-id">-->
+<!--            <div class="address-element__business-tax-id__label-container"><label for="taxId">-->
+<!--              <div class="address-element__business-tax-id__label-container__text-wrap">Business Tax ID</div>-->
+<!--              <span class=" ui-component-tooltip__anchor"><a href="#"><i-->
+<!--                class="ui-component-icon ui-component-icon_size_null icon-twilio-question "></i></a></span></label>-->
+<!--            </div>-->
+<!--            <div class="address-element__business-tax-id__radio-container">-->
+<!--              <div class="address-element__business-tax-id__radio-container__wrapper">-->
+<!--                <div class="address-element__business-tax-id__radio-container__wrapper&#45;&#45;negative-confirmation">-->
+<!--                  <div class="ui-component-radio"><label-->
+<!--                    class="ui-component-radio__label ui-component-radio__label_checked"><span-->
+<!--                    class="ui-component-radio__wrap"><input type="radio" class="ui-component-radio__input" name=""-->
+<!--                                                            value="paymentMethod"><span-->
+<!--                    class="ui-component-radio__checkmark ui-component-radio__checkmark_checked"></span></span><span-->
+<!--                    class="ui-component-radio__label-text">I do not have a Business Tax ID</span></label></div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="address-element__business-tax-id__radio-container__wrapper">-->
+<!--                <div class="address-element__business-tax-id__radio-container__wrapper&#45;&#45;positive-confirmation">-->
+<!--                  <div class="ui-component-radio"><label class="ui-component-radio__label"><span-->
+<!--                    class="ui-component-radio__wrap"><input type="radio" class="ui-component-radio__input" name=""-->
+<!--                                                            value="paymentMethod"><span-->
+<!--                    class="ui-component-radio__checkmark"></span></span><span class="ui-component-radio__label-text">I have a Business Tax ID</span></label>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="address-element__business-tax-id__input-container"><input disabled=""-->
+<!--                                                                                  class="form-control sl_whiteout address-element__business-tax-id__input-container__input"-->
+<!--                                                                                  type="text" value=""-->
+<!--                                                                                  style="display: none;"></div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--          <button class="ui-component-button ui-component-button_style_primary btn upgrade__address-button"-->
+<!--                  type="button">-->
+<!--            <span class="ui-component-button__text">Validate Address</span>-->
+<!--          </button>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
